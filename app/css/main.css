@@ -42,7 +42,9 @@ body {
 .menu {
   display: none;
   background-color: #42A5F5;
-  color: #112B40; }
+  color: #112B40;
+  /*display: flex*/
+  flex-direction: column; }
 
 .menu_item {
   padding: 5px;
