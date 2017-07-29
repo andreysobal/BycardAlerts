@@ -36,17 +36,26 @@ body {
   padding: 10px;
   display: flex;
   justify-content: flex-start; }
-  .header_logo img {
-    margin-right: 10px; }
+  .header_logo .header_logo__img {
+    margin-right: 10%; }
 
 .menu {
   display: none;
   background-color: #42A5F5;
-  color: #112B40; }
+  color: #112B40;
+  position: absolute;
+  width: 100%; }
 
 .menu_item {
   padding: 5px;
   margin-left: 10px; }
+
+.content__header {
+  background-color: #29434E;
+  padding: 10px 25px;
+  margin-top: 25px;
+  text-align: center;
+  line-height: 1; }
 
 /*==========  Mobile First  ==========*/
 /* Custom, iPhone Retina */
