@@ -2,9 +2,9 @@ $(".header_logo img").on('click',
 	function(evt) {
 		$('.menu').slideToggle(200);
 		const menuImg = new Image();									//for preload images
-		menuImg.src = "img/ic_menu_black_24px.svg";
+		menuImg.src = "../img/menu.svg";
 		const menuClose = new Image();
-		menuClose.src = "img/ic_close_black_24px.svg";
+		menuClose.src = "../img/close.svg";
 		if (evt.target.src == menuImg.src) {
 			$(this).attr("src", menuClose.src);
 		} else {
@@ -16,9 +16,9 @@ $(document).on('click', function(evt) {																	//close pop-up menu clik
 	if (!$(evt.target).closest(".header_logo img, .menu").length) {
 		$('.menu').hide();
 		const menuClose = new Image();																		//for preload image
-		menuClose.src = "img/ic_close_black_24px.svg";
+		menuClose.src = "../img/close.svg";
 		const img = $(".header_logo img");
-		if (img[0].src == menuClose.src){img.attr("src", "img/ic_menu_black_24px.svg");}
+		if (img[0].src == menuClose.src){img.attr("src", "../img/menu.svg");}
 	}
 	evt.stopPropagation();
 });//end click
