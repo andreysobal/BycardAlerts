@@ -69,7 +69,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  max-width: 85%;
+  text-align: center; }
 
 .films_item__dateStart {
   background-color: #29434E;
