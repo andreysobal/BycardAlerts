@@ -22,8 +22,8 @@ body {
 
 @font-face {
   font-family: "RobotoBold";
-  src: url("../fonts/robotobold/RobotoBold.eot");
-  src: url("../fonts/robotobold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/robotobold/RobotoBold.woff") format("woff"), url("../fonts/robotobold/RobotoBold.ttf") format("truetype");
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
@@ -85,7 +85,8 @@ body {
 
 .films_item__image {
   border: 1px solid #B4B4B4;
-  min-width: 200px;
+  min-width: 270px;
+  min-height: 100px;
   color: #616161; }
 
 .films_item__duration {
