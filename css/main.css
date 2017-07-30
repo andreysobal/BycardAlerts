@@ -28,6 +28,10 @@ body {
   font-weight: normal; }
 
 .header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
   background-color: #0077C1;
   color: #112B40;
   padding-top: 20px; }
@@ -44,12 +48,18 @@ body {
   display: none;
   background-color: #42A5F5;
   color: #112B40;
-  position: absolute;
+  position: fixed;
+  top: 62px;
+  z-index: 100;
   width: 100%; }
 
 .menu_item {
   padding: 5px;
   margin-left: 10px; }
+
+.content {
+  position: relative;
+  top: 65px; }
 
 .content__header {
   background-color: #29434E;
