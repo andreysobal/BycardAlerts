@@ -15,15 +15,15 @@ body {
 
 @font-face {
   font-family: "RobotoRegular";
-  src: url("fonts/robotoregular/robotoregular.eot");
-  src: url("fonts/robotoregular/robotoregular.eot?#iefix") format("embedded-opentype"), url("fonts/robotoregular/robotoregular.woff") format("woff"), url("fonts/robotoregular/robotoregular.ttf") format("truetype");
+  src: url("../fonts/robotoregular/robotoregular.eot");
+  src: url("../fonts/robotoregular/robotoregular.eot?#iefix") format("embedded-opentype"), url("../fonts/robotoregular/robotoregular.woff") format("woff"), url("../fonts/robotoregular/robotoregular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
   font-family: "RobotoBold";
-  src: url("fonts/RobotoBold/RobotoBold.eot");
-  src: url("fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("fonts/RobotoBold/RobotoBold.woff") format("woff"), url("fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
