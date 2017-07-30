@@ -12,14 +12,34 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
-	/*.header,.contentmax-width: 992px*/
+	.header
+		position: relative
+	.header_logo
+		justify-content: center
+		font-size: 300%
+	.header_logo__img
+		display: none
+	.menu
+		position: relative
+		top: 0
+		display: flex !important
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-around
+		align-items: stretch
+	.content
+		position: relative
+		top: 0
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
 	/**/
-
+	
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
-	/**/
+	.menu
+		justify-content: center
+	.films
+		max-width: 1200px
 
